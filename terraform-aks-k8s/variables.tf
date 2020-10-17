@@ -2,7 +2,7 @@ variable "client_id" {}
 variable "client_secret" {}
 
 variable "agent_count" {
-    default = 3
+    default = 1
 }
 
 variable "ssh_public_key" {
@@ -22,7 +22,7 @@ variable resource_group_name {
 }
 
 variable location {
-    default = "Central US"
+    default = "East US"
 }
 
 variable log_analytics_workspace_name {
